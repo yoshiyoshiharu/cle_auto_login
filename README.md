@@ -16,7 +16,7 @@ git clone https://github.com/yoshiyoshiharu/cle_auto_login
 ```
 
 IDとパスワードを編集してください.
-```python
+```python:cle_auto_login.py
 USERID = 'あなたのユーザID'
 PASSWORD = 'あなたのパスワード'
 ```
