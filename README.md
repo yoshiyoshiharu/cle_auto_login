@@ -10,6 +10,7 @@
 pip install selenium
 ```
 
+git cloneします.
 ```linux
 git clone https://github.com/yoshiyoshiharu/cle_auto_login
 ```
