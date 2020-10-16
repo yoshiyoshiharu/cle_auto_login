@@ -15,8 +15,11 @@ git cloneします.
 git clone https://github.com/yoshiyoshiharu/cle_auto_login
 ```
 
-cle_auto_login.pyでIDとパスワードを編集してください.
+cle_auto_login.pyでchromedriverへのパス,CLEのID,パスワードを編集してください.
 ```python:cle_auto_login.py
+//
+driver = webdriver.Chrome(executable_path='chromedriverへのパス')
+//
 USERID = 'あなたのユーザID'
 PASSWORD = 'あなたのパスワード'
 ```
