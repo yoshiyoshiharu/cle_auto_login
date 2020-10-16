@@ -5,7 +5,7 @@ USERID = 'ID'
 PASSWORD = 'パスワード'
 
 if __name__ == "__main__":
-    driver = webdriver.Chrome(executable_path='C:\Program Files\chromedriver\chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='chromedriver.exeのパス')
 
     error_flg = False
     driver.get('https://www.cle.osaka-u.ac.jp/webapps/login/')
